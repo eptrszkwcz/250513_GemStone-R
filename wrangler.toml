@@ -1,0 +1,6 @@
+name = "route-api"
+main = "worker/index.js"
+compatibility_date = "2024-05-19"
+
+[vars]
+ORS_API_KEY = "5b3ce3597851110001cf62484dc346cdc9c8402b9e5e63e835161859"
