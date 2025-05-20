@@ -18,7 +18,8 @@ async function getRoadRoute(start, end) {
     instructions: false
   };
 
-  const response = await fetch('http://localhost:3000/route?geometry_format=geojson', {
+  // const response = await fetch('http://localhost:3000/route?geometry_format=geojson', {
+  const response = await fetch('https://<worker-name>.<your-account>.workers.dev/route', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(body)
