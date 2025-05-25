@@ -8,7 +8,7 @@ const map = new mapboxgl.Map({
   projection: 'mercator'
 });
 
-const sheetId = '1AgQNJMEBQ7pkDsLpdb3czOdbqCxSzA5FesfDd1c7iVE';
+const sheetId = '1cIHZJWeTIKHSRevKZQvNe0NiNygHvMY8j7uxHzu69uU';
 const sheetName = 'Sheet1';
 const sheetUrl = `https://opensheet.vercel.app/${sheetId}/${sheetName}`;
 
